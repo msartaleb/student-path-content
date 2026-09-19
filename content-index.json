@@ -1,0 +1,795 @@
+{
+    "version": 1,
+    "project": "student-path",
+    "language": "ar",
+    "repository": "msartaleb/student-path-content",
+    "defaultBranch": "main",
+    "updatedAt": "2026-09-19",
+    "pathRules": {
+      "curriculumRoot": "curriculum",
+      "coverFileName": "cover.webp",
+      "documentFileName": "curriculum.pdf",
+      "codeFormat": "{levelNumber}_{subjectSlug}"
+    },
+    "levels": [
+      {
+        "id": "01-primary",
+        "name": "الصف الأول الابتدائي",
+        "number": "01",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "01_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/01-primary/01_Quran/cover.webp",
+            "file": "curriculum/01-primary/01_Quran/curriculum.pdf"
+          },
+          {
+            "code": "01_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/01-primary/01_Arabic/cover.webp",
+            "file": "curriculum/01-primary/01_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "01_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/01-primary/01_Math/cover.webp",
+            "file": "curriculum/01-primary/01_Math/curriculum.pdf"
+          },
+          {
+            "code": "01_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/01-primary/01_Science/cover.webp",
+            "file": "curriculum/01-primary/01_Science/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "02-primary",
+        "name": "الصف الثاني الابتدائي",
+        "number": "02",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "02_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/02-primary/02_Quran/cover.webp",
+            "file": "curriculum/02-primary/02_Quran/curriculum.pdf"
+          },
+          {
+            "code": "02_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/02-primary/02_Arabic/cover.webp",
+            "file": "curriculum/02-primary/02_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "02_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/02-primary/02_Math/cover.webp",
+            "file": "curriculum/02-primary/02_Math/curriculum.pdf"
+          },
+          {
+            "code": "02_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/02-primary/02_Science/cover.webp",
+            "file": "curriculum/02-primary/02_Science/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "03-primary",
+        "name": "الصف الثالث الابتدائي",
+        "number": "03",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "03_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/03-primary/03_Quran/cover.webp",
+            "file": "curriculum/03-primary/03_Quran/curriculum.pdf"
+          },
+          {
+            "code": "03_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/03-primary/03_Arabic/cover.webp",
+            "file": "curriculum/03-primary/03_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "03_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/03-primary/03_Math/cover.webp",
+            "file": "curriculum/03-primary/03_Math/curriculum.pdf"
+          },
+          {
+            "code": "03_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/03-primary/03_Science/cover.webp",
+            "file": "curriculum/03-primary/03_Science/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "04-primary",
+        "name": "الصف الرابع الابتدائي",
+        "number": "04",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "04_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/04-primary/04_Quran/cover.webp",
+            "file": "curriculum/04-primary/04_Quran/curriculum.pdf"
+          },
+          {
+            "code": "04_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/04-primary/04_Arabic/cover.webp",
+            "file": "curriculum/04-primary/04_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "04_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/04-primary/04_Math/cover.webp",
+            "file": "curriculum/04-primary/04_Math/curriculum.pdf"
+          },
+          {
+            "code": "04_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/04-primary/04_Science/cover.webp",
+            "file": "curriculum/04-primary/04_Science/curriculum.pdf"
+          },
+          {
+            "code": "04_Social",
+            "name": "الاجتماعيات",
+            "slug": "Social",
+            "cover": "curriculum/04-primary/04_Social/cover.webp",
+            "file": "curriculum/04-primary/04_Social/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "05-primary",
+        "name": "الصف الخامس الابتدائي",
+        "number": "05",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "05_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/05-primary/05_Quran/cover.webp",
+            "file": "curriculum/05-primary/05_Quran/curriculum.pdf"
+          },
+          {
+            "code": "05_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/05-primary/05_Arabic/cover.webp",
+            "file": "curriculum/05-primary/05_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "05_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/05-primary/05_Math/cover.webp",
+            "file": "curriculum/05-primary/05_Math/curriculum.pdf"
+          },
+          {
+            "code": "05_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/05-primary/05_Science/cover.webp",
+            "file": "curriculum/05-primary/05_Science/curriculum.pdf"
+          },
+          {
+            "code": "05_Social",
+            "name": "الاجتماعيات",
+            "slug": "Social",
+            "cover": "curriculum/05-primary/05_Social/cover.webp",
+            "file": "curriculum/05-primary/05_Social/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "06-primary",
+        "name": "الصف السادس الابتدائي",
+        "number": "06",
+        "category": "primary",
+        "subjects": [
+          {
+            "code": "06_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/06-primary/06_Quran/cover.webp",
+            "file": "curriculum/06-primary/06_Quran/curriculum.pdf"
+          },
+          {
+            "code": "06_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/06-primary/06_Arabic/cover.webp",
+            "file": "curriculum/06-primary/06_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "06_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/06-primary/06_Math/cover.webp",
+            "file": "curriculum/06-primary/06_Math/curriculum.pdf"
+          },
+          {
+            "code": "06_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/06-primary/06_Science/cover.webp",
+            "file": "curriculum/06-primary/06_Science/curriculum.pdf"
+          },
+          {
+            "code": "06_Social",
+            "name": "الاجتماعيات",
+            "slug": "Social",
+            "cover": "curriculum/06-primary/06_Social/cover.webp",
+            "file": "curriculum/06-primary/06_Social/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "07-basic",
+        "name": "الصف السابع الأساسي",
+        "number": "07",
+        "category": "basic",
+        "subjects": [
+          {
+            "code": "07_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/07-basic/07_Quran/cover.webp",
+            "file": "curriculum/07-basic/07_Quran/curriculum.pdf"
+          },
+          {
+            "code": "07_Islamic",
+            "name": "التربية الإسلامية",
+            "slug": "Islamic",
+            "cover": "curriculum/07-basic/07_Islamic/cover.webp",
+            "file": "curriculum/07-basic/07_Islamic/curriculum.pdf"
+          },
+          {
+            "code": "07_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/07-basic/07_Arabic/cover.webp",
+            "file": "curriculum/07-basic/07_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "07_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/07-basic/07_English/cover.webp",
+            "file": "curriculum/07-basic/07_English/curriculum.pdf"
+          },
+          {
+            "code": "07_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/07-basic/07_Math/cover.webp",
+            "file": "curriculum/07-basic/07_Math/curriculum.pdf"
+          },
+          {
+            "code": "07_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/07-basic/07_Science/cover.webp",
+            "file": "curriculum/07-basic/07_Science/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "08-basic",
+        "name": "الصف الثامن الأساسي",
+        "number": "08",
+        "category": "basic",
+        "subjects": [
+          {
+            "code": "08_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/08-basic/08_Quran/cover.webp",
+            "file": "curriculum/08-basic/08_Quran/curriculum.pdf"
+          },
+          {
+            "code": "08_Islamic",
+            "name": "التربية الإسلامية",
+            "slug": "Islamic",
+            "cover": "curriculum/08-basic/08_Islamic/cover.webp",
+            "file": "curriculum/08-basic/08_Islamic/curriculum.pdf"
+          },
+          {
+            "code": "08_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/08-basic/08_Arabic/cover.webp",
+            "file": "curriculum/08-basic/08_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "08_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/08-basic/08_English/cover.webp",
+            "file": "curriculum/08-basic/08_English/curriculum.pdf"
+          },
+          {
+            "code": "08_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/08-basic/08_Math/cover.webp",
+            "file": "curriculum/08-basic/08_Math/curriculum.pdf"
+          },
+          {
+            "code": "08_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/08-basic/08_Science/cover.webp",
+            "file": "curriculum/08-basic/08_Science/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "09-basic",
+        "name": "الصف التاسع الأساسي",
+        "number": "09",
+        "category": "basic",
+        "subjects": [
+          {
+            "code": "09_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/09-basic/09_Quran/cover.webp",
+            "file": "curriculum/09-basic/09_Quran/curriculum.pdf"
+          },
+          {
+            "code": "09_Islamic",
+            "name": "التربية الإسلامية",
+            "slug": "Islamic",
+            "cover": "curriculum/09-basic/09_Islamic/cover.webp",
+            "file": "curriculum/09-basic/09_Islamic/curriculum.pdf"
+          },
+          {
+            "code": "09_Arabic",
+            "name": "اللغة العربية",
+            "slug": "Arabic",
+            "cover": "curriculum/09-basic/09_Arabic/cover.webp",
+            "file": "curriculum/09-basic/09_Arabic/curriculum.pdf"
+          },
+          {
+            "code": "09_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/09-basic/09_English/cover.webp",
+            "file": "curriculum/09-basic/09_English/curriculum.pdf"
+          },
+          {
+            "code": "09_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/09-basic/09_Math/cover.webp",
+            "file": "curriculum/09-basic/09_Math/curriculum.pdf"
+          },
+          {
+            "code": "09_Science",
+            "name": "العلوم",
+            "slug": "Science",
+            "cover": "curriculum/09-basic/09_Science/cover.webp",
+            "file": "curriculum/09-basic/09_Science/curriculum.pdf"
+          },
+          {
+            "code": "09_Social",
+            "name": "الاجتماعيات",
+            "slug": "Social",
+            "cover": "curriculum/09-basic/09_Social/cover.webp",
+            "file": "curriculum/09-basic/09_Social/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "10-secondary",
+        "name": "الأول الثانوي",
+        "number": "10",
+        "category": "secondary",
+        "subjects": [
+          {
+            "code": "10_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/10-secondary/10_Quran/cover.webp",
+            "file": "curriculum/10-secondary/10_Quran/curriculum.pdf"
+          },
+          {
+            "code": "10_Faith",
+            "name": "الإيمان",
+            "slug": "Faith",
+            "cover": "curriculum/10-secondary/10_Faith/cover.webp",
+            "file": "curriculum/10-secondary/10_Faith/curriculum.pdf"
+          },
+          {
+            "code": "10_FiqhHadith",
+            "name": "الفقه والحديث",
+            "slug": "FiqhHadith",
+            "cover": "curriculum/10-secondary/10_FiqhHadith/cover.webp",
+            "file": "curriculum/10-secondary/10_FiqhHadith/curriculum.pdf"
+          },
+          {
+            "code": "10_Seerah",
+            "name": "السيرة",
+            "slug": "Seerah",
+            "cover": "curriculum/10-secondary/10_Seerah/cover.webp",
+            "file": "curriculum/10-secondary/10_Seerah/curriculum.pdf"
+          },
+          {
+            "code": "10_Grammar",
+            "name": "النحو والصرف",
+            "slug": "Grammar",
+            "cover": "curriculum/10-secondary/10_Grammar/cover.webp",
+            "file": "curriculum/10-secondary/10_Grammar/curriculum.pdf"
+          },
+          {
+            "code": "10_Literature",
+            "name": "الأدب والنصوص والبلاغة",
+            "slug": "Literature",
+            "cover": "curriculum/10-secondary/10_Literature/cover.webp",
+            "file": "curriculum/10-secondary/10_Literature/curriculum.pdf"
+          },
+          {
+            "code": "10_Reading",
+            "name": "القراءة",
+            "slug": "Reading",
+            "cover": "curriculum/10-secondary/10_Reading/cover.webp",
+            "file": "curriculum/10-secondary/10_Reading/curriculum.pdf"
+          },
+          {
+            "code": "10_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/10-secondary/10_English/cover.webp",
+            "file": "curriculum/10-secondary/10_English/curriculum.pdf"
+          },
+          {
+            "code": "10_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/10-secondary/10_Math/cover.webp",
+            "file": "curriculum/10-secondary/10_Math/curriculum.pdf"
+          },
+          {
+            "code": "10_Physics",
+            "name": "الفيزياء",
+            "slug": "Physics",
+            "cover": "curriculum/10-secondary/10_Physics/cover.webp",
+            "file": "curriculum/10-secondary/10_Physics/curriculum.pdf"
+          },
+          {
+            "code": "10_Chemistry",
+            "name": "الكيمياء",
+            "slug": "Chemistry",
+            "cover": "curriculum/10-secondary/10_Chemistry/cover.webp",
+            "file": "curriculum/10-secondary/10_Chemistry/curriculum.pdf"
+          },
+          {
+            "code": "10_Biology",
+            "name": "الأحياء",
+            "slug": "Biology",
+            "cover": "curriculum/10-secondary/10_Biology/cover.webp",
+            "file": "curriculum/10-secondary/10_Biology/curriculum.pdf"
+          },
+          {
+            "code": "10_Society",
+            "name": "المجتمع",
+            "slug": "Society",
+            "cover": "curriculum/10-secondary/10_Society/cover.webp",
+            "file": "curriculum/10-secondary/10_Society/curriculum.pdf"
+          },
+          {
+            "code": "10_Geography",
+            "name": "الجغرافيا",
+            "slug": "Geography",
+            "cover": "curriculum/10-secondary/10_Geography/cover.webp",
+            "file": "curriculum/10-secondary/10_Geography/curriculum.pdf"
+          },
+          {
+            "code": "10_History",
+            "name": "التاريخ",
+            "slug": "History",
+            "cover": "curriculum/10-secondary/10_History/cover.webp",
+            "file": "curriculum/10-secondary/10_History/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "11-secondary",
+        "name": "الثاني الثانوي",
+        "number": "11",
+        "category": "secondary",
+        "subjects": [
+          {
+            "code": "11_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/11-secondary/11_Quran/cover.webp",
+            "file": "curriculum/11-secondary/11_Quran/curriculum.pdf"
+          },
+          {
+            "code": "11_Faith",
+            "name": "الإيمان",
+            "slug": "Faith",
+            "cover": "curriculum/11-secondary/11_Faith/cover.webp",
+            "file": "curriculum/11-secondary/11_Faith/curriculum.pdf"
+          },
+          {
+            "code": "11_FiqhHadith",
+            "name": "الفقه والحديث",
+            "slug": "FiqhHadith",
+            "cover": "curriculum/11-secondary/11_FiqhHadith/cover.webp",
+            "file": "curriculum/11-secondary/11_FiqhHadith/curriculum.pdf"
+          },
+          {
+            "code": "11_Seerah",
+            "name": "السيرة",
+            "slug": "Seerah",
+            "cover": "curriculum/11-secondary/11_Seerah/cover.webp",
+            "file": "curriculum/11-secondary/11_Seerah/curriculum.pdf"
+          },
+          {
+            "code": "11_Grammar",
+            "name": "النحو والصرف",
+            "slug": "Grammar",
+            "cover": "curriculum/11-secondary/11_Grammar/cover.webp",
+            "file": "curriculum/11-secondary/11_Grammar/curriculum.pdf"
+          },
+          {
+            "code": "11_Literature",
+            "name": "الأدب والنصوص والبلاغة",
+            "slug": "Literature",
+            "cover": "curriculum/11-secondary/11_Literature/cover.webp",
+            "file": "curriculum/11-secondary/11_Literature/curriculum.pdf"
+          },
+          {
+            "code": "11_Reading",
+            "name": "القراءة",
+            "slug": "Reading",
+            "cover": "curriculum/11-secondary/11_Reading/cover.webp",
+            "file": "curriculum/11-secondary/11_Reading/curriculum.pdf"
+          },
+          {
+            "code": "11_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/11-secondary/11_English/cover.webp",
+            "file": "curriculum/11-secondary/11_English/curriculum.pdf"
+          },
+          {
+            "code": "11_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/11-secondary/11_Math/cover.webp",
+            "file": "curriculum/11-secondary/11_Math/curriculum.pdf"
+          },
+          {
+            "code": "11_Physics",
+            "name": "الفيزياء",
+            "slug": "Physics",
+            "cover": "curriculum/11-secondary/11_Physics/cover.webp",
+            "file": "curriculum/11-secondary/11_Physics/curriculum.pdf"
+          },
+          {
+            "code": "11_Chemistry",
+            "name": "الكيمياء",
+            "slug": "Chemistry",
+            "cover": "curriculum/11-secondary/11_Chemistry/cover.webp",
+            "file": "curriculum/11-secondary/11_Chemistry/curriculum.pdf"
+          },
+          {
+            "code": "11_Biology",
+            "name": "الأحياء",
+            "slug": "Biology",
+            "cover": "curriculum/11-secondary/11_Biology/cover.webp",
+            "file": "curriculum/11-secondary/11_Biology/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "13-secondary-science",
+        "name": "الثالث الثانوي العلمي",
+        "number": "13",
+        "category": "secondary",
+        "track": "science",
+        "subjects": [
+          {
+            "code": "13_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/13-secondary-science/13_Quran/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Quran/curriculum.pdf"
+          },
+          {
+            "code": "13_Faith",
+            "name": "الإيمان",
+            "slug": "Faith",
+            "cover": "curriculum/13-secondary-science/13_Faith/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Faith/curriculum.pdf"
+          },
+          {
+            "code": "13_FiqhHadith",
+            "name": "الفقه والحديث",
+            "slug": "FiqhHadith",
+            "cover": "curriculum/13-secondary-science/13_FiqhHadith/cover.webp",
+            "file": "curriculum/13-secondary-science/13_FiqhHadith/curriculum.pdf"
+          },
+          {
+            "code": "13_Seerah",
+            "name": "السيرة",
+            "slug": "Seerah",
+            "cover": "curriculum/13-secondary-science/13_Seerah/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Seerah/curriculum.pdf"
+          },
+          {
+            "code": "13_Grammar",
+            "name": "النحو والصرف",
+            "slug": "Grammar",
+            "cover": "curriculum/13-secondary-science/13_Grammar/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Grammar/curriculum.pdf"
+          },
+          {
+            "code": "13_Literature",
+            "name": "الأدب والنصوص والبلاغة",
+            "slug": "Literature",
+            "cover": "curriculum/13-secondary-science/13_Literature/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Literature/curriculum.pdf"
+          },
+          {
+            "code": "13_Reading",
+            "name": "القراءة",
+            "slug": "Reading",
+            "cover": "curriculum/13-secondary-science/13_Reading/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Reading/curriculum.pdf"
+          },
+          {
+            "code": "13_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/13-secondary-science/13_English/cover.webp",
+            "file": "curriculum/13-secondary-science/13_English/curriculum.pdf"
+          },
+          {
+            "code": "13_Biology",
+            "name": "الأحياء",
+            "slug": "Biology",
+            "cover": "curriculum/13-secondary-science/13_Biology/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Biology/curriculum.pdf"
+          },
+          {
+            "code": "13_Physics",
+            "name": "الفيزياء",
+            "slug": "Physics",
+            "cover": "curriculum/13-secondary-science/13_Physics/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Physics/curriculum.pdf"
+          },
+          {
+            "code": "13_Chemistry",
+            "name": "الكيمياء",
+            "slug": "Chemistry",
+            "cover": "curriculum/13-secondary-science/13_Chemistry/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Chemistry/curriculum.pdf"
+          },
+          {
+            "code": "13_Math",
+            "name": "الرياضيات",
+            "slug": "Math",
+            "cover": "curriculum/13-secondary-science/13_Math/cover.webp",
+            "file": "curriculum/13-secondary-science/13_Math/curriculum.pdf"
+          }
+        ]
+      },
+      {
+        "id": "13-secondary-literary",
+        "name": "الثالث الثانوي الأدبي",
+        "number": "13",
+        "category": "secondary",
+        "track": "literary",
+        "subjects": [
+          {
+            "code": "13_Quran",
+            "name": "القرآن الكريم",
+            "slug": "Quran",
+            "cover": "curriculum/13-secondary-literary/13_Quran/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Quran/curriculum.pdf"
+          },
+          {
+            "code": "13_Faith",
+            "name": "الإيمان",
+            "slug": "Faith",
+            "cover": "curriculum/13-secondary-literary/13_Faith/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Faith/curriculum.pdf"
+          },
+          {
+            "code": "13_FiqhHadith",
+            "name": "الفقه والحديث",
+            "slug": "FiqhHadith",
+            "cover": "curriculum/13-secondary-literary/13_FiqhHadith/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_FiqhHadith/curriculum.pdf"
+          },
+          {
+            "code": "13_Seerah",
+            "name": "السيرة",
+            "slug": "Seerah",
+            "cover": "curriculum/13-secondary-literary/13_Seerah/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Seerah/curriculum.pdf"
+          },
+          {
+            "code": "13_Grammar",
+            "name": "النحو والصرف",
+            "slug": "Grammar",
+            "cover": "curriculum/13-secondary-literary/13_Grammar/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Grammar/curriculum.pdf"
+          },
+          {
+            "code": "13_Literature",
+            "name": "الأدب والنصوص والبلاغة",
+            "slug": "Literature",
+            "cover": "curriculum/13-secondary-literary/13_Literature/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Literature/curriculum.pdf"
+          },
+          {
+            "code": "13_Reading",
+            "name": "القراءة",
+            "slug": "Reading",
+            "cover": "curriculum/13-secondary-literary/13_Reading/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Reading/curriculum.pdf"
+          },
+          {
+            "code": "13_English",
+            "name": "اللغة الإنجليزية",
+            "slug": "English",
+            "cover": "curriculum/13-secondary-literary/13_English/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_English/curriculum.pdf"
+          },
+          {
+            "code": "13_History",
+            "name": "التاريخ",
+            "slug": "History",
+            "cover": "curriculum/13-secondary-literary/13_History/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_History/curriculum.pdf"
+          },
+          {
+            "code": "13_Geography",
+            "name": "الجغرافيا",
+            "slug": "Geography",
+            "cover": "curriculum/13-secondary-literary/13_Geography/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Geography/curriculum.pdf"
+          },
+          {
+            "code": "13_Philosophy",
+            "name": "الفلسفة",
+            "slug": "Philosophy",
+            "cover": "curriculum/13-secondary-literary/13_Philosophy/cover.webp",
+            "file": "curriculum/13-secondary-literary/13_Philosophy/curriculum.pdf"
+          }
+        ]
+      }
+    ]
+  }
+  
